@@ -1,0 +1,11 @@
+package com.capg.fms.flight.repo;
+  
+  import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.capg.fms.flight.entity.Flight;
+  
+  @Repository
+  public interface IFlightRepo extends JpaRepository<Flight, Long>{
+
+ }
